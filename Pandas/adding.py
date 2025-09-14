@@ -1,5 +1,5 @@
 -------------7--------
-#adding columns
+#adding columns here
 
 import pandas as pd
 
@@ -13,7 +13,7 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 
-#square brackets df("Column_Name") = some_Data
+#square brackets df("column name") = some Data
 
 df["Bonus"] = df['Salary'] * 0.1
 print(df)
